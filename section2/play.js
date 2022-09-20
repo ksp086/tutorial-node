@@ -14,5 +14,9 @@ const hobbies = ['Sports', 'Cooking'];
 // console.log(hobbies);
 // console.log(hobbies.map(hobby => 'Hobby: ' + hobby));
 
-hobbies.push('Programming');
-console.log(hobbies);
+const copiedArray = [hobbies];
+console.log(copiedArray);
+const copiedArray2 = [...hobbies]; // spread of ...array_name
+console.log(copiedArray2);
+const copiedPerson = {...person};
+console.log(copiedPerson);
